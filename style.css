@@ -1,0 +1,51 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #carouselExampleControls img{
+    filter: brightness(50%);
+  }
+  
+  
+  #cards {
+    margin-bottom: 40px;
+  }
+  
+  
+  footer {
+      background-color: rgb(54, 54, 108);
+      margin-top: 20px;
+  }
+  
+  .estilo-mouse:hover {
+     transition: 0.1s ease;
+      transform:scale(1.045);
+  }
+  
+  
+  .borde-sombra{
+     border: 1px solid;
+     box-shadow: 0px 0px 1px 1px white;
+  }
+  
+    .btn-outline-secondary {
+      
+      color: whitesmoke;
+      border-color: whitesmoke;
+    }
+   
+    .div-honolulu {
+      display: flex;
+      gap: 1px;
+    }
+  
+    .fondo-boton{
+      background-color: #81c53d;
+    }
+  
+    .fondo-boton:hover {
+      background-color: #263B12;
+    }
+  
