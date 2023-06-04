@@ -49,3 +49,75 @@
       background-color: #263B12;
     }
   
+.nav-bg{
+    background: rgb(34, 76, 91);
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+  .navegacion-principal a{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;;
+    color: white;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;  
+    transition-duration: 1s;   
+}
+.navegacion-principal a:hover{
+    color:rgb(42, 180, 42);
+    text-align: center;
+    font-size: 16px;
+}
+/*parte 2************************************/
+.categoria-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-categoria {
+    text-align: center;
+}
+
+.card-title  {
+  font-size: 35px;
+}
+
+.card-porcentaje {
+  font-weight: bold;
+}
+
+.card-estudiante {
+  border: 1px solid blue; 
+}
+
+.card-trainee {
+  border: 1px solid green; 
+}
+
+.card-junior {
+  border: 1px solid orange; 
+}
+
+.blue {
+  background-color: lightblue;
+  width: 98%;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #cde1f5;
+}
+
+.green2 {
+  background-color: #96c93e;
+}
